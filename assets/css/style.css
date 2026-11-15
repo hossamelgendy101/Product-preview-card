@@ -1,0 +1,131 @@
+:root {
+  --green-500: hsl(158, 36%, 37%);
+  --green-700: hsl(158, 42%, 18%);
+
+  --black: hsl(212, 21%, 14%);
+  --grey:  hsl(228, 12%, 48%);
+  --cream: hsl(30, 38%, 92%);
+  --white: hsl(0, 0%, 100%);
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+h1, p { margin: 0; }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: var(--black);
+  background-color: var(--cream);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 12px;
+}
+
+.product-card{
+  background-color: var(--white);
+  border-radius: 8px;
+  width: 100%;
+  max-width: 350px;
+}
+
+.product-card__img{
+    border-radius: 8px 8px 0 0;
+    height: auto;
+    width: 100%;
+    display: block;
+}
+
+.product-card__content{
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.product-card__category{
+    letter-spacing: 5px;
+    font-size: 12px;
+    color: var(--grey);
+}
+
+.product-card__title{
+    font-family: 'Fraunces', serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.product-card__description{
+    color: var(--grey);
+    line-height: 1.6;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.product-card__price{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+}
+
+.product-card__current-price {
+    
+    font-family: 'Fraunces', serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--green-500);
+}
+
+.product-card__original-price {
+    color: var(--grey);
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.product-card__button {
+    background-color: var(--green-500);
+    color: var(--white);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.1;
+    gap: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 17.5px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    
+
+}
+.product-card__button:hover {
+    background-color: var(--green-700);
+}
+.product-card__button:focus-visible {
+    outline: 2px solid var(--green-700);
+    outline-offset: 2px;
+}
+
+
+@media (min-width: 700px) {
+  .product-card {
+    max-width: 600px;
+    display: flex;
+
+  }
+  .product-card__img {
+    border-radius: 8px 0 0 8px;
+    object-fit: cover;
+    width: 300px;
+    height: 100%;
+  }
+}
+
