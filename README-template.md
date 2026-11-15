@@ -28,13 +28,19 @@ Users should be able to:
 ### Screenshot
 
 <p align="center">
-  <img src="assets/images/screenshot.png" alt="Screenshot of the product preview card on desktop, with the perfume image on the left and the product details on the right" width="600">
+  <img src="assets/images/screenshot-desktop.PNG" alt="Screenshot of the product preview card on desktop, with the perfume image on the left and the product details on the right" width="600">
+</p>
+<p align="center">
+  <img src="assets\images\screenshot-mobile1.PNG" alt="Screenshot of the product preview card on desktop, with the perfume image on the left and the product details on the right" width="600">
+</p>
+<p align="center">
+  <img src="assets\images\screenshot-mobile2.PNG" alt="Screenshot of the product preview card on desktop, with the perfume image on the left and the product details on the right" width="600">
 </p>
 
 ### Links
 
-- GitHub repository: [YOUR-REPO-NAME](https://github.com/hossamelgendy101/YOUR-REPO-NAME)
-- Live site: [YOUR-LIVE-SITE](https://YOUR-LIVE-SITE-URL)
+- GitHub repository: [YOUR-REPO-NAME](https://github.com/hossamelgendy101/Product-preview-card)
+- Live site: [YOUR-LIVE-SITE](https://product-preview-card-azure-nu.vercel.app/)
 
 ## My process
 
